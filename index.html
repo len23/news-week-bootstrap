@@ -16,432 +16,461 @@
 
 <body class="container-xl p-0 px-3">
   <header>
-    <nav class="container-fluid bg-principal">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="row d-flex align-items-center justify-content-around collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="col-sm-4 pl-5 d-none d-sm-none d-md-none d-lg-block text-white">
-          <p><i class="fas fa-cloud-sun"></i> 19 &#8451; Quito, Ecuador<i class="fas fa-chevron-right"></i></p>
-          <time>Wed, Sep 02, 2020</time>
-        </div>
-        <div class="col-4 col-sm-4 ">
-          <img class=" w-lg-75" src="./images/news-logo.svg" alt="">
-        </div>
-        <form class="col-8 col-sm-6 col-md-6 col-lg-4 d-flex justify-content-around justify-content-md-end">
-          <a class="text-white mt-3 mr-3" href="">LOGIN</a>
-          <button type="button" class="btn btn-warning text-white rounded-pill subs-btn py-1">SUBSCRIPTION OFFERS <i class="fas fa-chevron-right"></i></button>
-        </form>
+    <div class="d-flex justify-content-between align-items-center py-2 px-lg-2 bg-principal">
+      <div class="text-white d-none d-lg-inline">
+        <p><i class="fas fa-cloud-sun"></i> 19 &#8451; Quito, Ecuador<i class="fas fa-chevron-right"></i></p>
+        <time>Wed, Sep 02, 2020</time>
       </div>
-
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block border-bottom">
+      <div class="text-lg-center pl-2">
+        <img class="w-75 w-lg-50" src="./news-logo.svg" alt="">
+      </div>
+        <div class="mt-4 navbar-light">
+          <a class="mr-4 text-white font-weight-bold d-md-inline d-none" href="">LOGIN</a>
+          <button class="btn btn-warning btn-sm py-lg-0 font-weight-bold rounded-pill">SUBSCRIPTION OFFERS</button>
+          <button class="navbar-toggler border-0 d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pb-3 border-bottom">   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">U.S</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">World</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Business</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Tech & Science</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Culture</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Newsgeek</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Sports</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Health</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">The Debate</a>
-        <a class="navbar-brand font-weight-bold border-right pr-2" href="#">Vantage</a>
-        <a class="navbar-brand font-weight-bold" href="#">Weather</a>
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      </div>
-      <div class="collapse navbar-collapse border-top" id="navbarSupportedContent">
-        <a class="navbar-brand font-weight-bold pr-3" href="#">TRENDING</a>
-        <a class="navbar-brand font-weight-bold pr-3" href="#">DONAL TRUMP</a>
-        <a class="navbar-brand font-weight-bold pr-3" href="#">JOE BIDEN</a>
-        <a class="navbar-brand font-weight-bold pr-3" href="#">CHINA</a>
-        <a class="navbar-brand font-weight-bold pr-3" href="#">CORONAVIRUS</a>
-        <a class="navbar-brand font-weight-bold pr-4" href="#">2020 ELECTION</a>
+        <ul class="navbar-nav d-flex justify-content-between w-100  ">
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right  pr-3" href="#">U.S.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Bussines</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Tech & Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Newsgeek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">The Debate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Vantage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Weather</a>
+          </li>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </ul>
+        
+       
+          
+        
+        
       </div>
     </nav>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-1 border-bottom">   
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex w-100">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold active text-secondary" href="#">TRENDING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">DONALD TRUMP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">JOE BIDEN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">CHINA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">2020 ELECTION</a>
+          </li>
+        </ul>
+        
+       
+          
+        
+        
+      </div>
+    </nav>
 
   </header>
 
-  <main class="row">
-    <div class="col-lg-8">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="card border-0">
-            <h2 class="text-secondary">Feature Stories</h2>
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+  <main>
+    <section class="row">
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="card border-0">
+              <h2 class="text-secondary">Feature Stories</h2>
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div>
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+  
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
+            </div>
+            <div class="card border-0">
+              <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
+                <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+              </div>
             </div>
           </div>
-          <div>
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
+          <div class="col-md-7">
+            <div class="card border-0">
+              <h2 class="text-secondary">Feature Stories</h2>
+              <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+              <div class="card-body px-0">
+                <h5 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h5>
+                <p class="card-text">"That figure blows me away," Joe Biden said.</p>
+              </div>
             </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-          <div class="card border-0">
-            <img src="images/kenosha-wisconsin-pprotesters-lawsuit.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title">Kenosha Protesters Allege Different Laws for Pro-Police Demonstrators</h5>
-              <p class="card-text">Four protesters in Kenosha, Wisconsin, filed a class-action lawsuit claiming law enforcement didn't enforce curfew restrictions on pro-police demonstrators.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-7">
-          <div class="card border-0">
-            <h2 class="text-secondary">Feature Stories</h2>
-            <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-            <div class="card-body px-0">
-              <h5 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h5>
-              <p class="card-text">"That figure blows me away," Joe Biden said.</p>
-            </div>
-          </div>
-          <h6 class="text-secondary ml-2">MY TURN</h6>
-          <div class="d-md-flex flex-row bd-highlight ">
-            <div class="p-2 bd-highlight">
-              <div class="card border-0">
-                <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-                <div class="card-body px-0">
-                  <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+            <h6 class="text-secondary ml-2">MY TURN</h6>
+            <div class="d-md-flex flex-row bd-highlight ">
+              <div class="p-2 bd-highlight">
+                <div class="card border-0">
+                  <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+                  <div class="card-body px-0">
+                    <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="card border-0">
+                  <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+                  <div class="card-body px-0">
+                    <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="card border-0">
+                  <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+                  <div class="card-body px-0">
+                    <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="p-2 bd-highlight">
-              <div class="card border-0">
-                <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-                <div class="card-body px-0">
-                  <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+            <h6 class="text-secondary ml-2">CULTURE & TRAVEL</h6>
+            <div class="d-md-flex flex-row bd-highlight ">
+              <div class="p-2 bd-highlight">
+                <div class="card border-0">
+                  <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+                  <div class="card-body px-0">
+                    <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="card border-0">
+                  <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+                  <div class="card-body px-0">
+                    <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <div class="card border-0">
+                  <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
+                  <div class="card-body px-0">
+                    <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="p-2 bd-highlight">
-              <div class="card border-0">
-                <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-                <div class="card-body px-0">
-                  <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
+            <div class="position-sticky sticky-top">
+              <h6 class="text-secondary ml-2 pb-2">MORE STORIES</h6>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-around py-3 border-top">
+                <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
+                <div class="pl-3">
+                  <h6>Portland Police Oversight Board Members Resign</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
           </div>
-          <h6 class="text-secondary ml-2">CULTURE & TRAVEL</h6>
-          <div class="d-md-flex flex-row bd-highlight ">
-            <div class="p-2 bd-highlight">
-              <div class="card border-0">
-                <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-                <div class="card-body px-0">
-                  <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 bd-highlight">
-              <div class="card border-0">
-                <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-                <div class="card-body px-0">
-                  <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 bd-highlight">
-              <div class="card border-0">
-                <img src="./images/joe-biden.webp" class="card-img-top rounded-0" alt="...">
-                <div class="card-body px-0">
-                  <h6 class="card-title"><a class="text-dark" href="#">Dueling Wilmingtons: Trump, Biden Campaign in Crucial States</a></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="position-sticky sticky-top">
-            <h6 class="text-secondary ml-2 pb-2">MORE STORIES</h6>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            <div class="d-flex justify-content-around py-3 border-top">
-              <img class="h-25 card-img-left pl-2" src="./images/portland-blm-march.jpg" alt="Card image cap">
-              <div class="pl-3">
-                <h6>Portland Police Oversight Board Members Resign</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="col px-4 px-lg-0">
-      <div class="card mb-1 border-left-0 border-right-0 position-relative">
-        <div class="row no-gutters d-flex">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class="w-lg-75 pt-3 pt-lg-0" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
-            </div>
-          </div>
-
-        </div>
-        <div class="position-absolute vs-text bg-dark text-white border-radious rounded-circle p-2">VS</div>
-      </div>
-      <div class="card mb-3 border-left-0 border-right-0">
-        <div class="row no-gutters d-flex">
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
-            </div>
-          </div>
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75 pt-3 pt-lg-0" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
+  
         </div>
       </div>
-      <h5 class="text-secondary">OPINION</h5>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters d-flex">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" class="w-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+      <div class="col px-4 px-lg-0">
+        <div class="card mb-1 border-left-0 border-right-0 position-relative">
+          <div class="row no-gutters d-flex">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class="w-lg-75 pt-3 pt-lg-0" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
+            </div>
+  
           </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+          <div class="position-absolute vs-text bg-dark text-white border-radious rounded-circle p-2">VS</div>
+        </div>
+        <div class="card mb-3 border-left-0 border-right-0">
+          <div class="row no-gutters d-flex">
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
+            </div>
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75 pt-3 pt-lg-0" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+        <h5 class="text-secondary">OPINION</h5>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters d-flex">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" class="w-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="card mb-3 border-top-0 border-left-0 border-right-0">
-        <div class="row no-gutters">
-          <div class="col-1 col-lg-3 mt-lg-4">
-            <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
-          </div>
-          <div class="col-9">
-            <div class="card-body pl-3">
-              <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
-              <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
+            </div>
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="border">
-        <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
-        <div class="card-body px-0">
-          <h5 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h5>
-          <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
-        </div>
-      </div>
-      <form class="my-5 bg-light p-4">
-        <div class="form-group">
-          <label for="exampleInputEmail1">
-            <div class="font-weight-bold text-email d-flex">
-              <img class="icon-1 bg-danger mr-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="">
-              <span class="aaa">Start your day with our top 5 articles</span>
+        <div class="card mb-3 border-top-0 border-left-0 border-right-0">
+          <div class="row no-gutters">
+            <div class="col-1 col-lg-3 mt-lg-4">
+              <img class=" w-lg-75" src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210" class="card-img" alt="...">
             </div>
-          </label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email addres" aria-describedby="emailHelp">
+            <div class="col-9">
+              <div class="card-body pl-3">
+                <p class="card-text mb-0 font-weight-bold">Let the Private Sector Help Save the Election. We Have No Choice</p>
+                <p class="card-text mt-0"><small class="text-muted"> By Wendy Weiser and Jennifer Weiss-Wolf</small></p>
+              </div>
+            </div>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-danger btn-lg btn-block">Free sing in</button>
-      </form>
-      <div class="border">
-        <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
-        <div class="card-body px-0">
-          <h5 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h5>
-          <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
+        <div class="border">
+          <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
+          <div class="card-body px-0">
+            <h5 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h5>
+            <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
+          </div>
         </div>
-      </div>
-      <div class="border">
-        <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
-        <div class="card-body px-0">
-          <h5 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h5>
-          <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
-        </div>
-      </div>
-      <div class="position-sticky sticky-top">
+        <form class="my-5 bg-light p-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1">
+              <div class="font-weight-bold text-email d-flex">
+                <img class="icon-1 bg-principal mr-2" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="">
+                <span class="aaa">Start your day with our top 5 articles</span>
+              </div>
+            </label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email addres" aria-describedby="emailHelp">
+          </div>
+          <button type="submit" class="btn btn-primary bg-principal border-0 btn-lg btn-block">Free sing in</button>
+        </form>
         <div class="border">
           <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
           <div class="card-body px-0">
@@ -456,10 +485,122 @@
             <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
           </div>
         </div>
+        <div class="position-sticky sticky-top">
+          <div class="border">
+            <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
+            <div class="card-body px-0">
+              <h5 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h5>
+              <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
+            </div>
+          </div>
+          <div class="border">
+            <img src="https://d.newsweek.com/en/full/1619925/kings-college-london.png?w=500&h=333&f=f044e7f18eb4ed04ceee9ca54f81497d" class="card-img-top rounded-0" alt="...">
+            <div class="card-body px-0">
+              <h5 class="card-title">What Could a Career in Engineering or Computer Science Do For You?</h5>
+              <p class="card-text">Could this be the perfect time for you to pursue a career in engineering or computer science? Find out how to get started.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <section class="">
-      <h2>asdasdsadasdasdasdasdas</h2>
+    </section>
+    
+    <section class="magazine-section mt-5">
+      <div class="w-100 flex-grow-1 d-flex justify-content-center align-items-center border-bottom pb-2">
+        <img class="icon-2 bg-principal mr-3" src="https://g.newsweek.com/www/images/logo-n1.svg" alt="">
+        <h5>IN THE MAGAZINE</h5>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="card border-0 position-relative" >
+            <img src="./images/magazine1.jpg" class="card-img-top" alt="...">
+            <div class="card-body position-absolute title-magazine w-100 p-0 rounded-0">
+              <h5 class="card-title w-75 my-0 text-danger date-magazine">SEPTEMBER 04 ISSUE</h5>
+              <button  type="button" class=" rounded-0 py-0 mb-0 btn btn-outline-light bg-light text-dark font-weight-bold  btn-lg btn-block">SEE ALL FEATURES</button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card border-0" >
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
     </section>
   </main>
 
