@@ -9,3 +9,9 @@
 .navbar a {
   font-size: 15px;
 }
+
+.vs-text {
+  bottom: -1.5rem;
+  left: 50%;
+  z-index: 10;
+}
