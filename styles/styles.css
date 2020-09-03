@@ -56,3 +56,25 @@
 .img-news-letter {
   object-fit: cover;
 }
+
+.icons {
+  font-size: 1.6rem;
+}
+
+.nav-footer2 .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-footer1  .nav-link, .nav-footer2  .nav-link {
+  border-right: 1px solid #d3d3d3;
+}
+
+
+
+
+@media (min-width: 1200px) { 
+  .container-xl{
+    max-width: 1310px;
+  }  
+ }
