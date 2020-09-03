@@ -46,5 +46,9 @@
 
 .text-red:hover {
   color: #f72210;
-  
+}
+
+.overlap-images {
+  top: 1rem;
+  left: 5rem;
 }
