@@ -39,3 +39,12 @@
   background-color: rgba(255,255,255,.9);
   font-size: 1.2rem;
 }
+
+.text-red {
+  color: #f72210;
+}
+
+.text-red:hover {
+  color: #f72210;
+  
+}
