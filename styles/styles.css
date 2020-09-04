@@ -75,6 +75,17 @@
   border-right: 1px solid #d3d3d3;
 }
 
+.label-img {
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header {
+  height: 180px;
+}
+
 @media (min-width: 1200px) {
   .container-xl {
     max-width: 1310px;
@@ -101,5 +112,11 @@
 
   .logo-1 {
     width: 45%;
+  }
+}
+
+@media (max-width:990px) {
+  header {
+    height: 100px;
   }
 }
