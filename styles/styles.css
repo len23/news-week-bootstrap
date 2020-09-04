@@ -66,9 +66,10 @@
   padding-bottom: 0;
 }
 
-.nav-footer1  .nav-link, .nav-footer2  .nav-link {
+.nav-footer1 .nav .nav-item:not(:last-child), .nav-footer2 .nav .nav-item:not(:last-child){
   border-right: 1px solid #d3d3d3;
 }
+
 
 
 
@@ -79,6 +80,17 @@
   }
  }
 
+@media (max-width: 768px) {
+  .subscribe-text h2{
+    font-size: 1.1rem;
+    position: relative;
+    top: -1rem;
+  }
+
+  .nav-footer1 .nav .nav-item:not(:last-child), .nav-footer2 .nav .nav-item:not(:last-child) {
+    border-right: none;
+  }
+ }
 
 @media (max-width: 600px) {
   .sub-header {
