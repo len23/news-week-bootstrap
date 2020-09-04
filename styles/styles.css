@@ -70,21 +70,18 @@
   padding-bottom: 0;
 }
 
-.nav-footer1 .nav .nav-item:not(:last-child), 
+.nav-footer1 .nav .nav-item:not(:last-child),
 .nav-footer2 .nav .nav-item:not(:last-child) {
   border-right: 1px solid #d3d3d3;
 }
 
 @media (min-width: 1200px) {
-
   .container-xl {
     max-width: 1310px;
   }
-
  }
 
 @media (max-width: 768px) {
-  
   .subscribe-text h2 {
     font-size: 1.1rem;
     position: relative;
@@ -95,14 +92,13 @@
   .nav-footer2 .nav .nav-item:not(:last-child) {
     border-right: none;
   }
-
  }
 
 @media (max-width: 600px) {
   .sub-header {
     font-size: 0.6rem;
   }
-
+  
   .logo-1 {
     width: 45%;
   }
