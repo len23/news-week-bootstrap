@@ -79,7 +79,7 @@
   .container-xl {
     max-width: 1310px;
   }
- }
+}
 
 @media (max-width: 768px) {
   .subscribe-text h2 {
@@ -88,17 +88,17 @@
     top: -1rem;
   }
 
-  .nav-footer1 .nav .nav-item:not(:last-child), 
+  .nav-footer1 .nav .nav-item:not(:last-child),
   .nav-footer2 .nav .nav-item:not(:last-child) {
     border-right: none;
   }
- }
+}
 
 @media (max-width: 600px) {
   .sub-header {
     font-size: 0.6rem;
   }
-  
+
   .logo-1 {
     width: 45%;
   }
