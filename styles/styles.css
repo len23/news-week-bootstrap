@@ -16,7 +16,7 @@
 
 .vs-text {
   bottom: -1.5rem;
-  left: 50%;
+  left: 45%;
   z-index: 10;
 }
 
@@ -82,8 +82,8 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-header {
-  height: 180px;
+.mt-14 {
+  margin-top: 14rem;
 }
 
 @media (min-width: 1200px) {
@@ -115,8 +115,8 @@ header {
   }
 }
 
-@media (max-width:990px) {
-  header {
-    height: 100px;
+@media (max-width: 998px) {
+  .mt-14 {
+    margin-top: 9rem;
   }
 }

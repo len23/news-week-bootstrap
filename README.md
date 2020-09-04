@@ -30,7 +30,7 @@ The project is public.
 
 - Github: [@Nexch](https://github.com/Nexch)
 - Twitter: [@@MfinchT](https://twitter.com/MfinchT)
-- Linkedin: [linkedin](www.linkedin.com/in/Nexch)
+- Linkedin: [linkedin](https://www.linkedin.com/in/Nexch)
 
 👤 **Lenin Montalvo**
 - Github: [@len23](https://github.com/len23)
