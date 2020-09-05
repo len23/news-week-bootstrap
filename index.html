@@ -16,16 +16,16 @@
 
 <body class="py-0 px-3 position-relative bg-light" data-spy="scroll" data-target="#navbar-example2" data-offset="3">
   <header id="navbar-example2" class="container-xl px-0">
-    <div class="main-menu">
-      <div class="d-flex justify-content-between align-items-center py-2 px-lg-2 bg-principal">
+    <div class="main-menu fix-max-lg-top">
+      <div class="d-flex justify-content-between align-items-center px-lg-2 bg-principal">
         <div class="text-white d-none d-lg-inline">
           <p><i class="fas fa-cloud-sun"></i> 19 &#8451; Quito, Ecuador<i class="fas fa-chevron-right"></i></p>
           <span>Wed, Sep 02, 2020</span>
         </div>
-        <div class="text-lg-center pl-2 logo-1 w-50">
-          <img  src="./images/news-logo.svg" alt="link">
+        <div class="text-lg-center pl-2 logo-1 w-25 w-md-50">
+          <img class="w-sm-75 w-md-50" src="./images/news-logo.svg" alt="link">
         </div>
-        <div class="mt-4 navbar-light">
+        <div class="navbar-light">
           <a class="mr-4 text-white font-weight-bold d-md-inline d-none" href="">LOGIN</a>
           <i class="fas fa-user d-md-none text-white mr-2"></i>
           <button type="button"
@@ -37,7 +37,7 @@
           </button>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white pb-3 border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white pb-3 border-bottom d-none d-lg-block">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav d-flex justify-content-between w-100  ">
             <li class="nav-item">
@@ -77,7 +77,7 @@
           </ul>
         </div>
       </nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 border-bottom d-none d-lg-block">
         <div class="collapse navbar-collapse" id="navbarSupportedContent-2">
           <ul class="navbar-nav d-flex w-100">
             <li class="nav-item active">
@@ -100,15 +100,15 @@
       </nav>
     </div>
     <div class="secondary-menu d-none">
-      <div class="d-flex justify-content-between align-items-center py-2 px-lg-2 bg-principal">
-        <div class="text-lg-center pl-2 logo-1 w-25">
-          <img src="./images/news-logo.svg" alt="link">
+      <div class="d-flex justify-content-between align-items-center py-1 px-lg-2 bg-principal">
+        <div class="text-left pl-2 logo-1 w-25">
+          <img class="w-sm-75 w-md-50 w-lg-25" src="./images/news-logo.svg" alt="link">
         </div>
-        <div class="mt-4 navbar-light">
-          <a class="mr-4 text-white font-weight-bold d-md-inline d-none" href="">LOGIN</a>
+        <div class="navbar-light">
+          <a class="mr-4 text-white font-weight-bold d-inline-block" href=""><span>LOGIN</span></a>
           <i class="fas fa-user d-md-none text-white mr-2"></i>
           <button type="button"
-            class="btn btn-warning btn-sm py-lg-0 font-weight-bold rounded-pill sub-header">SUBSCRIBE</button>
+            class="btn btn-warning btn-sm py-lg-0 font-weight-bold rounded-pill sub-header px-4">SUBSCRIBE</button>
           <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -120,7 +120,10 @@
    
   </header>
 
-  <main  class="container-xl bg-white" id="secondary">
+  <main  class="container-xl bg-white">
+    <div id="secondary" class="d-none d-lg-block">
+
+    </div>
     <section class="row pt-3">
       <div class="col-lg-8">
         <div class="row">
@@ -467,7 +470,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75" src="./images/james-r-conde-t-elliot-gaiser.webp" alt="news-image">
+              <img  src="./images/james-r-conde-t-elliot-gaiser.webp" alt="news-image">
             </div>
             <div class="col-9 col-sm-8">
               <div class="card-body pl-3">
@@ -482,7 +485,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75" src="./images/sly-james-winston-fisher.webp" alt="news-image">
+              <img src="./images/sly-james-winston-fisher.webp" alt="news-image">
             </div>
             <div class="col-9 col-sm-8">
               <div class="card-body pl-3">
@@ -497,7 +500,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75" src="./images/newt-gingrich.webp" alt="news-image">
+              <img  src="./images/newt-gingrich.webp" alt="news-image">
             </div>
             <div class="col-9 col-sm-8">
               <div class="card-body pl-3">
@@ -511,7 +514,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75" src="./images/vikram-mansharamani.webp" alt="news-image">
+              <img  src="./images/vikram-mansharamani.webp" alt="news-image">
             </div>
             <div class="col-9 col-sm-8">
               <div class="card-body pl-3">
@@ -525,7 +528,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75"
+              <img 
                 src="https://d.newsweek.com/en/full/1631010/wendy-weiser-jennfer-weiss-wolf.png?w=63&h=63&f=904308ea94e1c08205af5c52c325f210"
                 alt="news-image">
             </div>
@@ -541,7 +544,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75" src="./images/spencer-klavan.webp" alt="news-image">
+              <img  src="./images/spencer-klavan.webp" alt="news-image">
             </div>
             <div class="col-9 col-sm-8">
               <div class="card-body pl-3">
@@ -555,7 +558,7 @@
         <div class="card mb-3 border-top-0 border-left-0 border-right-0">
           <div class="row align-items-center">
             <div class="col-3 col-sm-1 col-lg-2">
-              <img class=" w-lg-75" src="./images/ksenia-svetlova.webp" alt="news-image">
+              <img  src="./images/ksenia-svetlova.webp" alt="news-image">
             </div>
             <div class="col-9 col-sm-8">
               <div class="card-body pl-3">
@@ -916,21 +919,21 @@
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-around py-3 ">
-            <img class="h-25 card-img-left pl-2  w-25" src="./images/taco-bell-mexican-pizza.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/taco-bell-mexican-pizza.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3 border border-left-0 border-right-0">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/joe-biden.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/joe-biden.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/donald-trump_aside.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/donald-trump_aside.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
@@ -965,14 +968,14 @@
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-around py-3 ">
-            <img class="h-25 card-img-left pl-2  w-25" src="./images/health-care-workers.jpg" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/health-care-workers.jpg" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3 border border-left-0 border-right-0">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/lebanon-army-beirut-port-explosion-blast.webp"
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/lebanon-army-beirut-port-explosion-blast.webp"
               alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
@@ -980,7 +983,7 @@
             </div>
           </div>
           <div class="d-flex justify-content-around py-3">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/us-military-syria-russia-helicopter.webp"
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/us-military-syria-russia-helicopter.webp"
               alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
@@ -1016,7 +1019,7 @@
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-around py-3 ">
-            <img class="h-25 card-img-left pl-2  w-25"
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25"
               src="./images/coronavirus-impact-washington-dc-unemployment-2020.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
@@ -1024,14 +1027,14 @@
             </div>
           </div>
           <div class="d-flex justify-content-around py-3 border border-left-0 border-right-0">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/jerome-powell.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/jerome-powell.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/donald-trump_bussines.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/donald-trump_bussines.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
@@ -1066,21 +1069,21 @@
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-around py-3 ">
-            <img class="h-25 card-img-left pl-2  w-25" src="./images/moon.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/moon.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3 border border-left-0 border-right-0">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/mark-zuckerberg.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/mark-zuckerberg.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/hranice-abyss.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/hranice-abyss.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
@@ -1115,21 +1118,21 @@
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-around py-3 ">
-            <img class="h-25 card-img-left pl-2  w-25" src="./images/man-woman.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/man-woman.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3 border border-left-0 border-right-0">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/mulan-mushu.webp" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/mulan-mushu.webp" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/joanne-rogers-thinks-trump-pathologically-ill.webp"
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/joanne-rogers-thinks-trump-pathologically-ill.webp"
               alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
@@ -1165,21 +1168,21 @@
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-around py-3 ">
-            <img class="h-25 card-img-left pl-2  w-25" src="./images/justin-thomas-pga-tour.jpg" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/justin-thomas-pga-tour.jpg" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3 border border-left-0 border-right-0">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/dustin-johnson-pga-tour.jpg" alt="Card image cap">
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/dustin-johnson-pga-tour.jpg" alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
                   October</a></h6>
             </div>
           </div>
           <div class="d-flex justify-content-around py-3">
-            <img class="h-25 card-img-left pl-2 w-25" src="./images/aew-all-out-2020-poster-moxley-mjf.jpg"
+            <img class="h-25 card-img-left pl-2 w-50 w-lg-25" src="./images/aew-all-out-2020-poster-moxley-mjf.jpg"
               alt="Card image cap">
             <div class="pl-3">
               <h6><a class="text-dark" href="#">Dr. Fauci Says It's 'Conceivable' That Coronavirus Vaccine Ready By
