@@ -14,93 +14,115 @@
   <title>Newsweek</title>
 </head>
 
-<body class="container-xl py-0 px-3">
-  <header class="fixed-top container-xl">
-    <div class="d-flex justify-content-between align-items-center py-2 px-lg-2 bg-principal">
-      <div class="text-white d-none d-lg-inline">
-        <p><i class="fas fa-cloud-sun"></i> 19 &#8451; Quito, Ecuador<i class="fas fa-chevron-right"></i></p>
-        <span>Wed, Sep 02, 2020</span>
+<body class="container-xl py-0 px-3"  data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+  <header id="navbar-example2">
+    <div class="main-menu">
+      <div class="d-flex justify-content-between align-items-center py-2 px-lg-2 bg-principal">
+        <div class="text-white d-none d-lg-inline">
+          <p><i class="fas fa-cloud-sun"></i> 19 &#8451; Quito, Ecuador<i class="fas fa-chevron-right"></i></p>
+          <span>Wed, Sep 02, 2020</span>
+        </div>
+        <div class="text-lg-center pl-2 logo-1 w-50">
+          <img  src="./images/news-logo.svg" alt="link">
+        </div>
+        <div class="mt-4 navbar-light">
+          <a class="mr-4 text-white font-weight-bold d-md-inline d-none" href="">LOGIN</a>
+          <i class="fas fa-user d-md-none text-white mr-2"></i>
+          <button type="button"
+            class="btn btn-warning btn-sm py-lg-0 font-weight-bold rounded-pill sub-header">SUBSCRIBE</button>
+          <button class="navbar-toggler border-0 d-lg-none" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
       </div>
-      <div class="text-lg-center pl-2 logo-1">
-        <img class="w-75 w-lg-50" src="./images/news-logo.svg" alt="link">
-      </div>
-      <div class="mt-4 navbar-light">
-        <a class="mr-4 text-white font-weight-bold d-md-inline d-none" href="">LOGIN</a>
-        <i class="fas fa-user d-md-none text-white mr-2"></i>
-        <button type="button"
-          class="btn btn-warning btn-sm py-lg-0 font-weight-bold rounded-pill sub-header">SUBSCRIBE</button>
-        <button class="navbar-toggler border-0 d-lg-none" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white pb-3 border-bottom">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex justify-content-between w-100  ">
+            <li class="nav-item">
+              <a id="main-active" class="nav-link text-dark font-weight-bold border-right  pr-3" href="#main">U.S.</a>
+            </li>
+            <li class="nav-item">
+              <a id="secondary-active" class="nav-link text-dark font-weight-bold border-right pr-3" href="#secondary">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Bussines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Tech & Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Newsgeek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">The Debate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Vantage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Weather</a>
+            </li>
+            <li><input class="w-100 border-0 bg-transparent mt-2" type="search" name="search" placeholder="Search"></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 border-bottom">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-2">
+          <ul class="navbar-nav d-flex w-100">
+            <li class="nav-item active">
+              <a class="nav-link font-weight-bold active text-secondary" href="#">TRENDING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold br-1 text-secondary" href="#">DONALD TRUMP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold br-1 text-secondary" href="#">JOE BIDEN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold br-1 text-secondary" href="#">CHINA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold br-1 text-secondary" href="#">2020 ELECTION</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="secondary-menu d-none">
+      <div class="d-flex justify-content-between align-items-center py-2 px-lg-2 bg-principal">
+        <div class="text-lg-center pl-2 logo-1 w-25">
+          <img src="./images/news-logo.svg" alt="link">
+        </div>
+        <div class="mt-4 navbar-light">
+          <a class="mr-4 text-white font-weight-bold d-md-inline d-none" href="">LOGIN</a>
+          <i class="fas fa-user d-md-none text-white mr-2"></i>
+          <button type="button"
+            class="btn btn-warning btn-sm py-lg-0 font-weight-bold rounded-pill sub-header">SUBSCRIBE</button>
+          <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white pb-3 border-bottom">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav d-flex justify-content-between w-100  ">
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right  pr-3" href="#">U.S.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">World</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Bussines</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Tech & Science</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Culture</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Newsgeek</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Sports</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Health</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">The Debate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Vantage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark font-weight-bold border-right pr-3" href="#">Weather</a>
-          </li>
-          <li><input class="w-100 border-0 bg-transparent mt-2" type="search" name="search" placeholder="Search"></li>
-        </ul>
-      </div>
-    </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 border-bottom">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-2">
-        <ul class="navbar-nav d-flex w-100">
-          <li class="nav-item active">
-            <a class="nav-link font-weight-bold active text-secondary" href="#">TRENDING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">DONALD TRUMP</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">JOE BIDEN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">CHINA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link font-weight-bold br-1 text-secondary" href="#">2020 ELECTION</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+   
   </header>
 
-  <main class="mt-14">
-    <section class="row">
+  <main  id="main">
+    <div style="height: 2rem;"></div>
+    <section class="row"  id="secondary" >
       <div class="col-lg-8">
         <div class="row">
           <div class="col-md-5 order-2 order-md-1">
@@ -1286,6 +1308,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
