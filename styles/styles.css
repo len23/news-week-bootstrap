@@ -95,8 +95,9 @@
   object-fit: cover;
 }
 
-.icons {
-  font-size: 1.6rem;
+.icons i{
+  font-size: 1.8rem;
+  color: #666;
 }
 
 .nav-footer1 .nav .nav-item:not(:last-child),
@@ -115,7 +116,7 @@
   margin-top: 15rem;
 }
 
-/* Personalize widths */
+
 
 
 /* Media Queries */
