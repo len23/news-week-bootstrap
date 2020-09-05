@@ -2,14 +2,29 @@
   background-color: #f72210;
 }
 
-.reference {
-  height: 20rem;
-  background-color: green;
-  position: absolute;
-  width: 100%;
-}
+/*  DEBATE SECTION */
 .chang-img {
   width: 3.7rem;
+}
+
+.border-vs::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  left: 0;
+  top: 0.6rem;
+  z-index: 3;
+}
+
+.border-vs::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  left: 0;
+  top: 0.8rem;
+  z-index: 3;
 }
 
 .subs-btn {
@@ -25,9 +40,9 @@
 }
 
 .vs-text {
-  bottom: -1.5rem;
-  left: 45%;
-  z-index: 10;
+  width: 4rem;
+  padding: 0.5rem;
+  z-index: 4;
 }
 
 .text-email {
@@ -35,9 +50,18 @@
   line-height: 1;
 }
 
+.form-text {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.button-text {
+  font-size: 0.9rem
+}
+
 .icon-1 {
-  width: 15%;
-  height: 15%;
+  width: 2rem;
+  height: 2rem;
 }
 
 .icon-2 {
@@ -91,11 +115,40 @@
   margin-top: 15rem;
 }
 
+/* Personalize widths */
+
+
+/* Media Queries */
+
+
+@media (min-width: 576px) { 
+  .w-sm-75 {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-100 {
+    width: 100% !important;
+  }
+
+  .w-lg-75 {
+    width: 75% !important;
+  }
+}
+
 @media (min-width: 1200px) {
   .container-xl {
     max-width: 1310px;
   }
 }
+
 
 @media (max-width: 768px) {
   .subscribe-text h2 {
