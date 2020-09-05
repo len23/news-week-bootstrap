@@ -2,6 +2,12 @@
   background-color: #f72210;
 }
 
+.reference {
+  height: 20rem;
+  background-color: green;
+  position: absolute;
+  width: 100%;
+}
 .chang-img {
   width: 4rem;
 }
